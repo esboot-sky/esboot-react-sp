@@ -4,7 +4,7 @@ import './app.scss';
 
 const App = () => (
   <div styleName="main">
-    PC Browser Platform
+    Welcome to ESBoot!
 
     <Outlet />
   </div>

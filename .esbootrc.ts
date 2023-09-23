@@ -1,4 +1,5 @@
 import { defineConfig } from '@dz-web/esboot';
+import type { CompileTimeConfig } from '@dz-web/esboot';
 
 export default defineConfig({
   mfsu: true,
@@ -14,3 +15,8 @@ export default defineConfig({
   //   /@floating-ui/i,
   // ],
 });
+
+
+export const afterHooks = (compileTimeConfig: CompileTimeConfig) => {
+  // console.log(compileTimeConfig, '<-- compileTimeConfig');
+}
