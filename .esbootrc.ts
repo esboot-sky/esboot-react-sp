@@ -1,8 +1,9 @@
 import { defineConfig } from '@dz-web/esboot';
+import vitestPlugin from '@dz-web/esboot-plugin-vitest';
 import type { CompileTimeConfig } from '@dz-web/esboot';
 
 export default defineConfig({
-  mfsu: true,
+  mfsu: false,
   // extraBabelIncludes: [
   //   /filter-obj/i,
   //   /immer/i,
@@ -14,9 +15,13 @@ export default defineConfig({
   //   /@react-spring/i,
   //   /@floating-ui/i,
   // ],
+  plugins: [vitestPlugin()],
+  alias: {
+    'vitest1': "@dz-web/esboot-plugin-vitest/dist/esm/vitest"
+  }
 });
-
 
 export const afterHooks = (compileTimeConfig: CompileTimeConfig) => {
   // console.log(compileTimeConfig, '<-- compileTimeConfig');
-}
+};
+
