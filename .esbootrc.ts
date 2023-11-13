@@ -2,6 +2,7 @@ import { defineConfig } from '@dz-web/esboot';
 import vitestPlugin from '@dz-web/esboot-plugin-vitest';
 import type { CompileTimeConfig } from '@dz-web/esboot';
 
+console.log(vitestPlugin(), '<-- vitestPlugin()');
 export default defineConfig({
   mfsu: false,
   // extraBabelIncludes: [
@@ -16,9 +17,6 @@ export default defineConfig({
   //   /@floating-ui/i,
   // ],
   plugins: [vitestPlugin()],
-  alias: {
-    'vitest1': "@dz-web/esboot-plugin-vitest/dist/esm/vitest"
-  }
 });
 
 export const afterHooks = (compileTimeConfig: CompileTimeConfig) => {

@@ -13,7 +13,6 @@
   "author": "Roc",
   "license": "ISC",
   "dependencies": {
-    "@dz-web/esboot-plugin-vitest": "^0.0.2",
     "@dz-web/request": "^0.1.10",
     "@loadable/component": "^5.15.3",
     "ahooks": "^3.7.7",
@@ -30,6 +29,7 @@
   },
   "devDependencies": {
     "@dz-web/esboot": "^2.6.2",
+    "@dz-web/esboot-plugin-vitest": "^0.0.5",
     "@types/dz-web": "^1.0.1",
     "@types/node": "^20.5.9",
     "@types/react": "18.2.14",
