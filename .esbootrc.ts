@@ -2,7 +2,6 @@ import { defineConfig } from '@dz-web/esboot';
 import vitestPlugin from '@dz-web/esboot-plugin-vitest';
 import type { CompileTimeConfig } from '@dz-web/esboot';
 
-console.log(vitestPlugin(), '<-- vitestPlugin()');
 export default defineConfig({
   mfsu: false,
   // extraBabelIncludes: [

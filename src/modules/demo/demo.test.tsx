@@ -1,6 +1,5 @@
-import { expect, test } from 'vitest';
-import { render, fireEvent } from '@testing-library/react';
-// import { fireEvent } from '@testing-library/user-event';
+import { test, expect } from 'vitest';
+import { render } from '@testing-library/react';
 
 import Home from '@/modules/demo/app';
 

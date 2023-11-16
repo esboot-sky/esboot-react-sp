@@ -1,6 +1,5 @@
 import { useCallback, useState } from 'react';
 
-console.log(useState, '<-- useState');
 function Demo() {
   const [status, setStatus] = useState(false);
 
