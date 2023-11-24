@@ -1,11 +1,10 @@
 import { test, expect } from 'vitest';
-import { render } from '@testing-library/react';
 
 // import Home from '@/modules/demo/app';
 import { add } from '@/modules/demo/test';
 
 test('Demo', () => {
-  expect(add(1, 2)).toBe(3);
+  expect(add(1, 2)).toBe(5);
   // const { container } = render(<Home />);
 
   // expect(container.querySelector('p')?.textContent).toBe('close');
