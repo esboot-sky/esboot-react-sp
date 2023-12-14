@@ -5,6 +5,7 @@ import type { CompileTimeConfig } from '@dz-web/esboot';
 
 export default defineConfig({
   mfsu: false,
+  // analyze: true,
   // extraBabelIncludes: [
   //   /filter-obj/i,
   //   /immer/i,
