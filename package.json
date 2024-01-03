@@ -8,7 +8,7 @@
     "dev": "esboot dev",
     "build": "esboot build",
     "esboot": "esboot",
-    "postinstall": "esboot exec husky install && esboot g-alias"
+    "postinstall": "esboot postinstall"
   },
   "author": "Roc",
   "license": "ISC",
@@ -18,8 +18,6 @@
     "ahooks": "^3.7.7",
     "antd": "^5.6.2",
     "classnames": "^2.3.2",
-    "core-js": "^3.31.0",
-    "immer": "^10.0.2",
     "lodash-es": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -29,7 +27,6 @@
   },
   "devDependencies": {
     "@dz-web/esboot": "^2.10.2",
-    "@dz-web/esboot-plugin-storybook": "0.0.1-alpha",
     "@dz-web/esboot-plugin-vitest": "^0.2.7",
     "@types/dz-web": "^1.0.1",
     "@types/node": "^20.5.9",
