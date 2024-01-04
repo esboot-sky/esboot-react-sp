@@ -1,5 +1,7 @@
 import { initReqInfo } from '@dz-web/request';
+
 import staticConfig from '@/helpers/static-config';
+
 import { Language } from '../../constants/config';
 // import logger from '@mobile/helpers/logger';
 

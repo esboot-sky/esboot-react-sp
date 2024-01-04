@@ -1,9 +1,9 @@
-import { createHashRouter } from 'react-router-dom';
 import loadable from '@loadable/component';
-
-import App from './app';
+import { createHashRouter } from 'react-router-dom';
 
 import demoRouters from '../demo/router';
+
+import App from './app';
 
 const NotFound = loadable(() => import('../misc/not-found/not-found'));
 
