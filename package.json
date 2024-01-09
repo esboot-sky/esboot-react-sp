@@ -28,6 +28,7 @@
   "devDependencies": {
     "@dz-web/esboot": "^2.11.2",
     "@dz-web/esboot-plugin-vitest": "^1.0.1",
+    "@dz-web/esboot-plugin-tailwindcss": "^0.0.1",
     "@types/dz-web": "^1.0.2",
     "@types/node": "^20.10.6",
     "@types/react": "18.2.14",
