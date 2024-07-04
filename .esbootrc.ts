@@ -1,6 +1,6 @@
 import { defineConfig } from '@dz-web/esboot';
 import vitestPlugin from '@dz-web/esboot-plugin-vitest';
-// import storybookPlugin from '@dz-web/esboot-plugin-storybook';
+import tailwindcssPlugin from '@dz-web/esboot-plugin-tailwindcss';
 import type { CompileTimeConfig } from '@dz-web/esboot';
 
 export default defineConfig({
@@ -17,7 +17,7 @@ export default defineConfig({
   //   /@react-spring/i,
   //   /@floating-ui/i,
   // ],
-  plugins: [vitestPlugin()],
+  plugins: [vitestPlugin(), tailwindcssPlugin()],
 });
 
 export const afterHooks = (compileTimeConfig: CompileTimeConfig) => {

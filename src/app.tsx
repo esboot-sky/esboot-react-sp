@@ -1,11 +1,8 @@
 import { Outlet } from 'react-router-dom';
 
-import './app.scss';
-
 const App = () => (
-  <div styleName="main">
+  <div className="text-[red]">
     Welcome to ESBoot!
-
     <Outlet />
   </div>
 );
