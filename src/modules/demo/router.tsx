@@ -1,6 +1,6 @@
-import loadable from '@loadable/component';
+import { lazy } from 'react';
 
-const App = loadable(() => import('./app'));
+const App = lazy(() => import('./app'));
 
 export default {
   path: '/demo',

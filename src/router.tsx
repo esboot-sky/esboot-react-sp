@@ -1,10 +1,10 @@
-import loadable from '@loadable/component';
-import { createHashRouter } from 'react-router-dom';
+import { lazy } from 'react';
+import { createHashRouter } from 'react-router';
 
-import App from './app';
 import demoRouters from './modules/demo/router';
 
-const NotFound = loadable(() => import('./modules/misc/not-found/not-found'));
+const App = lazy(() => import('./app'));
+const NotFound = lazy(() => import('./modules/misc/not-found/not-found'));
 
 const router = createHashRouter([
   {

@@ -9,7 +9,9 @@ function Demo() {
 
   return (
     <div>
-      <button onClick={clickHandler} type="button">Toggle</button>
+      <button onClick={clickHandler} type="button">
+        Toggle
+      </button>
       <p>{status ? 'open' : 'close'}</p>
     </div>
   );

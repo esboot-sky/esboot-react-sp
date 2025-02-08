@@ -5,38 +5,41 @@
   "main": "index.js",
   "scripts": {
     "dev": "esboot dev",
+    "dev:vite": "cross-env ESBOOT_BUNDLER=vite esboot dev",
     "build": "esboot build",
     "esboot": "esboot",
-    "postinstall": "esboot postinstall"
+    "prepare": "esboot prepare"
   },
   "author": "Roc",
   "license": "ISC",
   "dependencies": {
     "@dz-web/axios": "0.0.6",
     "@dz-web/axios-middlewares": "1.0.3",
-    "@loadable/component": "5.16.4",
-    "@tanstack/react-query": "5.49.2",
-    "ahooks": "3.8.0",
-    "antd": "5.19.0",
-    "axios": "1.7.2",
+    "@dz-web/esboot-browser": "^3.0.30",
+    "@tanstack/react-query": "5.66.0",
+    "ahooks": "3.8.4",
+    "antd": "5.23.4",
+    "axios": "1.7.9",
     "classnames": "2.5.1",
     "lodash-es": "4.17.21",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "react-intl": "6.6.8",
-    "react-router-dom": "6.24.1",
-    "zustand": "4.5.4"
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-intl": "7.1.5",
+    "react-router": "7.1.5",
+    "zustand": "5.0.3"
   },
   "devDependencies": {
-    "@dz-web/esboot": "2.14.11",
-    "@dz-web/esboot-plugin-tailwindcss": "0.2.0",
-    "@dz-web/esboot-plugin-vitest": "1.1.7",
-    "@types/dz-web": "1.0.2",
-    "@types/node": "20.14.9",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
-    "eslint": "8.50.0",
-    "stylelint": "15.10.3"
+    "@dz-web/esboot": "3.0.30",
+    "@dz-web/esboot-bundler-vite": "3.0.30",
+    "@dz-web/esboot-bundler-webpack": "3.0.30",
+    "@dz-web/esboot-plugin-docs": "^3.0.30",
+    "@dz-web/esboot-plugin-vitest": "^3.0.30",
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "cross-env": "^7.0.3",
+    "eslint": "8.57.1",
+    "stylelint": "15.11.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint",
@@ -49,15 +52,15 @@
   },
   "stylelint": {
     "extends": [
-      "@dz-web/esboot/config/stylelint"
+      "./node_modules/.cache/esboot/stylelint"
     ]
   },
   "commitlint": {
     "extends": [
-      "./node_modules/@dz-web/esboot/config/commitlint/index.js"
+      "./node_modules/.cache/esboot/commitlint"
     ]
   },
-  "prettier": "./node_modules/.cache/esboot/prettier/index.json",
+  "prettier": "./node_modules/.cache/esboot/prettier",
   "browserslist": {
     "development": [
       "last 1 chrome version"
