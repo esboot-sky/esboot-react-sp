@@ -15,7 +15,7 @@
   "dependencies": {
     "@dz-web/axios": "0.0.6",
     "@dz-web/axios-middlewares": "1.0.3",
-    "@dz-web/esboot-browser": "^4.0.0-alpha.2",
+    "@dz-web/esboot-browser": "^4.0.0-alpha.8",
     "@tanstack/react-query": "5.90.5",
     "ahooks": "3.9.5",
     "antd": "5.27.6",
@@ -29,11 +29,11 @@
     "zustand": "5.0.8"
   },
   "devDependencies": {
-    "@dz-web/esboot": "^4.0.0-alpha.2",
-    "@dz-web/esboot-bundler-vite": "^4.0.0-alpha.2",
-    "@dz-web/esboot-bundler-webpack": "4.0.0-alpha.2",
-    "@dz-web/esboot-plugin-docs": "^4.0.0-alpha.2",
-    "@dz-web/esboot-plugin-vitest": "^4.0.0-alpha.2",
+    "@dz-web/esboot": "^4.0.0-alpha.8",
+    "@dz-web/esboot-bundler-vite": "^4.0.0-alpha.8",
+    "@dz-web/esboot-bundler-webpack": "^4.0.0-alpha.8",
+    "@dz-web/esboot-plugin-docs": "^4.0.0-alpha.8",
+    "@dz-web/esboot-plugin-vitest": "^4.0.0-alpha.8",
     "@types/node": "24.9.1",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
