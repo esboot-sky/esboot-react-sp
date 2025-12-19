@@ -32,6 +32,7 @@
     "@dz-web/esboot-bundler-vite": "^4.0.3",
     "@dz-web/esboot-plugin-docs": "^4.0.3",
     "@dz-web/esboot-plugin-vitest": "^4.0.3",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "24.10.0",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
