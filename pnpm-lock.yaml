@@ -58,8 +58,16 @@ importers:
         specifier: ^4.0.5
         version: 4.0.5(@dz-web/esboot@4.0.5(@types/node@25.0.3)(@vue/compiler-sfc@3.5.26)(jiti@2.6.1)(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))(tailwindcss@4.1.18)(typescript@5.9.3)(vitest@4.0.16))(@svgr/core@8.1.0(typescript@5.9.3))(@types/node@25.0.3)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.5)(sass@1.97.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)
       '@dz-web/esboot-plugin-vitest':
+<<<<<<< HEAD
         specifier: ^4.0.5
         version: 4.0.5(@dz-web/esboot-bundler-vite@4.0.5(@dz-web/esboot@4.0.5(@types/node@25.0.3)(@vue/compiler-sfc@3.5.26)(jiti@2.6.1)(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))(tailwindcss@4.1.18)(typescript@5.9.3)(vitest@4.0.16))(@svgr/core@8.1.0(typescript@5.9.3))(@types/node@25.0.3)(jiti@2.6.1)(lightningcss@1.30.2)(rollup@4.53.5)(sass@1.97.0)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2))(@dz-web/esboot@4.0.5(@types/node@25.0.3)(@vue/compiler-sfc@3.5.26)(jiti@2.6.1)(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))(tailwindcss@4.1.18)(typescript@5.9.3)(vitest@4.0.16))(@testing-library/dom@10.4.1)(@types/node@25.0.3)(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(jiti@2.6.1)(lightningcss@1.30.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass-embedded@1.97.0)(sass@1.97.0)(terser@5.44.1)(tsx@4.21.0)(yaml@2.8.2)
+=======
+        specifier: ^4.0.3
+        version: 4.0.3(54d450820f8c49d67757df2b86bedff2)
+      '@types/lodash-es':
+        specifier: ^4.17.12
+        version: 4.17.12
+>>>>>>> 03f16f57c38f2e1dde4e806862083027c5725129
       '@types/node':
         specifier: ^25.0.3
         version: 25.0.3
@@ -2381,6 +2389,24 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
+<<<<<<< HEAD
+=======
+  '@types/jsonfile@6.1.4':
+    resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
+
+  '@types/katex@0.16.7':
+    resolution: {integrity: sha512-HMwFiRujE5PjrgwHQ25+bsLJgowjGjm5Z8FVSf0N6PwgJrwxH0QxzHYDcKsTfV3wva0vzrpqMTJS2jXPr5BMEQ==}
+
+  '@types/lodash-es@4.17.12':
+    resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
+
+  '@types/lodash@4.17.21':
+    resolution: {integrity: sha512-FOvQ0YPD5NOfPgMzJihoT+Za5pdkDJWcbpuj1DjaKZIr/gxodQjY/uWEFlTNqW2ugXHUiL8lRQgw63dzKHZdeQ==}
+
+  '@types/mdast@3.0.15':
+    resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
+
+>>>>>>> 03f16f57c38f2e1dde4e806862083027c5725129
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
 
@@ -9644,6 +9670,25 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
+<<<<<<< HEAD
+=======
+  '@types/jsonfile@6.1.4':
+    dependencies:
+      '@types/node': 24.10.0
+
+  '@types/katex@0.16.7': {}
+
+  '@types/lodash-es@4.17.12':
+    dependencies:
+      '@types/lodash': 4.17.21
+
+  '@types/lodash@4.17.21': {}
+
+  '@types/mdast@3.0.15':
+    dependencies:
+      '@types/unist': 2.0.11
+
+>>>>>>> 03f16f57c38f2e1dde4e806862083027c5725129
   '@types/mdast@4.0.4':
     dependencies:
       '@types/unist': 3.0.3
